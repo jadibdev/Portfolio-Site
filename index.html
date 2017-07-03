@@ -1,52 +1,167 @@
-<!doctype html>
-<html class="no-js" lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodeMghrib</title>
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
-  <body>
-
-  <div class="row">
-    <div class="small-2 large-4 columns"><img src="http://www.thehomesmatchmaker.com/wp-content/uploads/2016/06/morocco.jpg"/></div>
-    <div class="small-4 large-4 columns"><img src="http://cdn.vandogtraveller.com/wp-content/uploads/2016/06/reasons-to-come-to-morocco-campervan-map-gibralter-strait.jpg"/></div>
-    <div class="small-6 large-4 columns"><img src="http://newmedia.thomson.co.uk/live/vol/3/57337ff6d38f521c139b6076a35f07f14dc3eb75/1080x608/web/AFRICAMOROCCOMOROCCO-AGADIRAGADIRRES_002112.jpg"/></div>
-  </div>
-
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <!-- This is the navigation bar -->
   
-<div class="row">
-  <div class="large-3 columns"><img src="https://static.gate1travel.com/shared/morocco/features/tourist-camel.jpg"/></div>
-  <div class="large-6 columns"><img src="https://dentaid.org/wp-content/gallery/morocco/Morocco_h%C4%B1story_9.jpg"/></div>
-  <div class="large-3 columns"><img src="http://cdni.condenast.co.uk/1920x1280/o_r/royal-palm-marrakech-morocco-conde-nast-traveller-22feb16-Alan-Keohane_.jpg"/></div>
-</div>
-<div class="row">
-  <div class="small-6 large-2 columns"><img src="https://www.journeybeyondtravel.com/wp-content/uploads/2017/01/7-Excuses-to-Visit-Morocco-in-2017.jpg"/></div>
-  <div class="small-6 large-8 columns"><img src="https://www.roadscholar.org//imagevault/publishedmedia/p3je939i9qz22603eriu/7158-morocco-melting-pot-of-culture-chefchaouen-blue-arches-LgHoz.jpg"/></div>
-  <div class="small-12 large-2 columns"><img src="https://www.roughguides.com/wp-content/uploads/2015/04/4646799611-320x280.jpg"/></div>
-</div>
-<div class="row">
-  <div class="small-3 columns"><img src="http://www.timeforkids.com/files/styles/tfk_rect_large/public/2011-07/morocco_ss1.jpg?itok=0lDZbHfB"/></div>
-  <div class="small-9 columns"><img src="https://www.travcoa.com/sites/default/files/styles/flexslider_full/public/tours/images/colorsofmorocco-hero-morocco-marrakesh-riad-32878054.jpg?itok=27RqFUoQ"/></div>
-</div>
-<div class="row">
-  <div class="large-4 columns"><img src="http://cdn.tourradar.com/s3/tour/original/52204_6f2dff6f.jpg"/></div>
-  <div class="large-8 columns"><img src="https://www.eurocontrol.int/sites/default/files/country/flags/morocco.png"/></div>
-</div>
-<div class="row">
-  <div class="small-6 large-5 columns"><img src="https://s-media-cache-ak0.pinimg.com/736x/71/5f/e1/715fe131a0a27c46389e456f86a48dbc.jpg"/></div>
-  <div class="small-6 large-7 columns"><img src="http://thehostelgirl.com/wp-content/uploads/2015/12/20-Things-to-Know-Before-you-Travel-to-Morocco-The-Hostel-Girl-1.png"/></div>
-</div>
-<div class="row">
-  <div class="large-6 columns"><img src="https://www.roadscholar.org//imagevault/publishedmedia/p3je939i9qz22603eriu/7158-morocco-melting-pot-of-culture-chefchaouen-blue-arches-LgHoz.jpg"/></div>
-  <div class="large-6 columns"><img src="https://www.alexanderroberts.com/getmedia/68dd4328-de2d-46bc-8c15-d761d2e03c5b/17-Magic-of-Morocco_MainPic_1.jpg.aspx?width=940"/></div>
-</div>
+  <nav class="navbar navbar-inverse top-bar navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#"><div class="left-logo"><!--<p>P</p>--></div></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
 
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
+       <ul class="nav navbar-nav navbar-right">
+         <li class="page-scroll"><a href="#about">About</a></li>
+          <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
+          <li class="page-scroll"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- This is the personal section-->
+  
+  <div class="container mid" id="about">   
+    <div class="container clearfix">
+      <div class="jumbotron clearfix text-center pic-div">
+        <img class="img-responsive" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAT9AAAAJDQ0ZDg1ZTZmLTA4MWItNGY1MC1hZjAxLWU1MTdkMThiOWY4Nw.jpg"/>
+        <div class="container p-wrap">
+        <p id="full">Aspiring Full Stack Developer</p>
+        <p id="front">Front End Developer</p>
+        <p id="ux">UX/UI Designer</p>
+        <p id="philz">Philz Coffee Lover</p>
+        </div>
+        <div class="container-fluid tech-logos">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+            <img id="html-img" class="img-responsive" src="https://www.w3.org/html/logo/img/mark-only-icon.png">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+             <img id="css-img"class="img-responsive" src="https://maxcdn.icons8.com/Share/icon/Logos//css31600.png" alt="Related image">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+            <img id="jquery-img" class="img-responsive" src="https://uploads.toptal.io/blog/category/logo/40/jquery.png" alt="Image result for jquery logo">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+            <img id="bootstrap-img" class="img-responsive"  src="data:image/png;base64,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" alt="Image result for bootstrap logo">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  <!-- This is the projects area -->
+  
+  
+    <div id="portfolio" class="clearfix projects jumbotron text-center"> 
+      <h3>Portfolio</h3>
+      <!--<div class="divide text-center"></div>-->
+       
+      <div class="row port-div">
+        <div class="col-sm-6 col-md-4 col-lg-3">
+           <img class="img-fluid" src="https://irp-cdn.multiscreensite.com/7c08cc87/dms3rep/multi/mobile/italian-restaurant-website-500x376.jpg" alt="Image result for restaurant website">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3"> 
+          <img src="https://s-media-cache-ak0.pinimg.com/originals/cc/bc/9f/ccbc9f49bd26f3a0a095b732569650a0.jpg" class="img-fluid margin thumbnail" alt="Image">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3"> 
+          <img src="http://cdn7.fedobe.com/wp-content/uploads/2012/08/minimal20.jpg" class="img-fluid margin thumbnail" alt="Image">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3"> 
+          <img src="https://noupe.com/img/portfolio-36.jpg" class="img-fluid margin thumbnail" alt="Image">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3"> 
+          <img class="img-fluid" src="https://cdn1.freshdesignweb.com/wp-content/uploads/2014/08/Order-Taxi-Website-Template.jpg" alt="Image result for taxi website">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3"> 
+          <img src="http://www.multyshades.com/wp-content/uploads/2013/02/portfolio-websites34.jpg" class="img-fluid margin thumbnail" alt="Image">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3"> 
+          <img class="img-fluid" src="http://dentondigital.com/wp-content/uploads/2012/02/richarddavissculpture.jpg" alt="Image result for artist websites">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3"> 
+          <img src="http://injapan.gaijinpot.com/wp-content/uploads/2013/08/revolve-455x353.jpg" class="img-fluid margin thumbnail" alt="Image">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3"> 
+          <img src="http://6uh9u7hhy8-flywheel.netdna-ssl.com/wp-content/uploads/2011/04/Jay-Z-Life-+-Times.jpg" class="img-fluid margin thumbnail" alt="Image">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3"> 
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4_alf3ZO1VggIMVlxBuXEMByrtFFwI8U9805qnqCRPW68V0dZ" class="img-fluid margin thumbnail" alt="Image">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3"> 
+          <img src="http://blog.teamtreehouse.com/wp-content/uploads/2013/06/04-fundatia-website-static-navigation-topbar.png" class="img-fluid thumbnail" alt="Image">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3"> 
+          <img src="http://www.reactivegraphics.co.uk/wp-content/uploads/2015/05/Intersect.jpg" class="img-fluid margin thumbnail" alt="Image">
+        </div>
+      </div>
+     </div>
+    
+   
+   <!-- This is the contact area -->
+      <!-- Contact form-->
+      <div class="jumbotron contact-area">
+        <div id="contact" class="contact-div">
+        <h3 class="text-center contact-title">Contact</h3>
+        </div>
+        <p>Please feel free to contact me for any questions, quotes or suggestions at anytime. You can simply fill out the form or you can click on of the icons below to connect with me via social media.</p>
+        
+        <form id="intake">
+  <div class="form-group">
+    <label for="first">First:</label>
+    <input type="first" class="form-control" id="first">
+  </div>
+  <div class="form-group">
+    <label for="last">Last:</label>
+    <input type="last" class="form-control" id="last">
+  </div>
+  <div class="form-group">
+    <label for="email">Email:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+   <div class="form-group">
+    <label for="phone">Phone:</label>
+    <input type="phone" class="form-control" id="phone">
+  </div>
+  <div class="form-group">
+    <label for="message">Message:</label>
+    <textarea class="form-control" rows="5" id="message"></textarea>
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+     </div>
+      <!-- Social icons-->
+      <div class="jumbotron text-center clearfix social">
+        <p>made with <i class="fa fa-coffee" aria-hidden="true"> and <i class="fa fa-music" aria-hidden="true"></i> <a href="#">by Mohamed Jadib</a></i></p>
+        <ul>
+          <a href="https://www.facebook.com/muhammadjadib" target="_blank"><li><img id="facebook-logo" class="img-responsive" src="https://facebookbrand.com/wp-content/themes/fb-branding/prj-fb-branding/assets/images/fb-art.png" alt="Image result for restaurant website"></li></a>
+          <a href="https://www.linkedin.com/in/mohamed-jadib-942a5041/"><li><img id="linkedin-logo" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_color-512.png" alt="Image"></li></a>
+          <a href="https://github.com/jadibdev"><li><img id="github-logo" src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" class="img-responsive margin thumbnail"  alt="Image"></li></a>
+        <a href="https://www.snapchat.com/add/jadibdev"><li><img id="snapchat-logo" class="img-responsive" src="https://pixel.nymag.com/imgs/daily/following/2016/04/26/snapchat/realparishilton.w190.h190.png" alt="Image result for snapchat"></li></a>
+      </ul>
+      <span class="text-center" id="copyright">&copy; 2017 All Rights Reserved.<span>
+     </div>
+  <!--</div>-->
   </body>
-</html>
+        
+ 

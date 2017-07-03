@@ -1,0 +1,335 @@
+/* --------------------------
+  Top navigation
+  --------------------------- */
+.top-bar {
+ 
+}
+
+.navbar-right li {
+  margin: 10px 30px 0px 30px;
+} 
+
+.left-logo {
+  position: relative;
+  top: -8px;
+  width: 35px;
+  height: 35px;
+  background-color: #f9f9f9;
+  border-radius: 80% 0 80% 0;
+  border: 2px dashed white;
+}
+
+.left-logo p {
+  position: relative;
+  top: 24%;
+  left: 38%;
+  font-family: Pangolin;
+}
+
+.top-bar {
+  font-family: Pangolin;
+}
+
+
+/* --------------------------
+  Personal section
+  --------------------------- */
+
+.pic-div {
+  margin-bottom: 30px;
+  margin-top: 70px;
+}
+
+.mid {
+  margin-top: 30px;
+}
+
+.mid img {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.p-wrap {
+  margin-top: 20px;
+}
+
+.mid p {
+  text-align: center;
+  margin: 20px 0px 0px 20px;
+  font-family: Pangolin;
+}
+  
+  .mid p {
+    /*position: relative;
+    top: 50px;*/
+    text-align: center;
+  }
+
+.tech-logos {
+  margin-top: 40px;
+}
+
+.tech-logos img {
+  margin-top: 20px;
+}
+
+
+/* ----------------------------
+  Projects area
+  ----------------------------- */
+
+.divide {
+  border: 0.5px solid black;
+}
+
+.projects {
+  margin-top: 50px;
+}
+
+.projects h3 {
+  margin-top: 30px;
+  font-family: Pangolin;
+}
+
+.port-div img {
+  margin-top: 30px;
+  border-radius: 0;
+}
+
+/* ---------------------------
+  contact area
+ ----------------------------- */
+
+.contact-area {
+  margin-top: 90px;
+}
+
+.contact-title {
+  font-family: Pangolin;
+  margin-top: 40px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 30px;
+}
+
+#intake {
+  margin-top: 40px;
+}
+
+#copyright {
+  position: relative;
+  top: 20px;
+  left: 10px;
+  font-size: 11px;
+}
+
+
+/* these are media queries to resize
+   when screen goes to desktop */
+@media (min-width: 768px) {
+  /* -----------------------
+     top navigation 
+    ------------------------ */
+  .left-logo {
+    width: 40px;
+    height: 40px;
+    margin-top: 3.5px;
+  }
+  
+  /* ----------------------
+    personal section
+    ----------------------- */
+  .pic-div {
+    position: relative;
+    right: 1.4%;
+    margin-bottom: 30px;
+  }
+  
+  .mid img {
+    float: left;
+    margin-right: 50px;
+  }
+  
+  
+  #html-img {
+    width: 75%;
+    height: 75% ;
+  }
+  
+  #css-img {
+    width: 75%;
+    height: 75% ;
+  }
+  
+  #jquery-img {
+    width: 75%;
+    height: 75% ;
+  }
+  
+  #bootstrap-img {
+    width: 60%;
+    height: 60% ;
+  }
+  
+  /* -------------------
+    contact area
+    -------------------- */
+  .social ul {
+      list-style: none;
+      position: relative;
+      left: 14%;
+    }
+  
+  
+  .contact-area form {
+    margin: 0 30% 0 30%;
+  }
+  
+  .contact-area p {
+    text-align: center;
+  }
+  
+  #copyright {
+     position: relative;
+      top: 70px;
+      left: -190px;
+  }
+}
+
+  @media(min-width: 992px) {
+    #front {
+      position: relative;
+      left: 3%;
+    } 
+    
+    #ux {
+      position: relative;
+      left: -15%;
+    }
+    
+    #full {
+      position: relative;
+      left: 21%;
+    }
+    
+    #philz {
+      position: relative;
+      left: -30%;
+    }
+    
+    /* -------------------
+    contact area
+    -------------------- */
+  .social ul {
+      position: relative;
+      left: 29%;
+    }
+    
+  }
+
+  /* this resizes personal section
+     images down to 50% on mobile */
+  @media (max-width: 575px) {
+    
+    /* ------------------
+      personal section
+      ------------------- */
+    
+    #html-img {
+      width: 40%;
+      height: 40%;
+    }
+    
+    #css-img {
+      width: 40%;
+      height: 40%;
+    }
+    
+    #jquery-img {
+      width: 40%;
+      height: 40%;
+    }
+    
+    #bootstrap-img {
+      width: 30%;
+      height: 30%;
+    }
+    
+    .projects {
+      margin-right: 13px;
+      margin-left: 12px;
+    }
+    
+     /* -----------------
+      contact area
+      ------------------ */
+    .contact-area {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+    
+    .social ul {
+      list-style: none;
+    }
+    
+    .social ul li {
+      margin-top: 20px;
+    }
+    
+    #facebook-logo {
+      width: 35px;
+      height: 35px;
+    }
+    
+    #linkedin-logo {
+      width: 35px;
+      height: 35px;
+    }
+    
+    #github-logo {
+      width: 35px;
+      height: 35px;
+    }
+    
+    #snapchat-logo {
+      width: 35px;
+      height: 35px;
+    }
+  }
+
+
+@media (min-width: 576px) {
+  /* -----------------
+      contact area
+      ------------------ */
+  .social ul {
+    list-style: none;
+  }
+  
+    .social ul li {
+      margin-top: 20px;
+      text-align: center;
+    }
+    
+    #facebook-logo {
+      width: 50px;
+      height: 50px;
+    }
+    
+    #linkedin-logo {
+      width: 50px;
+      height: 50px;
+    }
+    
+    #github-logo {
+      width: 50px;
+      height: 50px;
+    }
+    
+    #snapchat-logo {
+      width: 50px;
+      height: 50px;
+    }
+}
